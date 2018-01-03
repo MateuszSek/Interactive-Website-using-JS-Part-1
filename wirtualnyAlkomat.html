@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Wirtualny Alkomat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet"> 
+
+</head>
+<body>
+    <div id="header"><h1>Wirtualny Alkomat</h1></div>
+    <div id="AboutYou">
+        <div class="number"><h1>1</h1></div>
+        <div id="rest">
+            <div class="description"><h1>&nbsp;Coś o Tobie:</h1></div>
+            <div id="container1">
+                <br><br>
+                <h3>Płeć: </h3><input type="radio" class="radioo" name="plec" value="Man" checked="checked">Mężczyzna<input type="radio" class="radioo" name="plec" value="Woman">Kobieta<br><br><br>
+                <h3>Wiek (lata):   </h3><input type="number" min="1" max="99" name="wiek">
+            </div>         
+            <div id="container2">
+                <br><br>
+                <h3>Wzrost(cm):</h3><input name="wzrost" type="number" min="120" max="220"><br><br><br>
+                <h3>Waga(kg):</h3><input name="waga" type="number" min="40" max="160">
+            </div>
+            <div id="container3">
+                <br><br>
+                <h3>Piłem na: </h3><h4><input type="radio" class="radioo" name="zoladek" value="full" checked="checked">Pełny żołądek<input  type="radio" class="radioo"  name="zoladek" value="half">1/2 pełny żołądek<input type="radio" class="radioo"  name="zoladek" value="empty">Pusty żołądek</h4>
+            </div>
+        </div>
+    </div>
+    <div id="alcohol">
+        <div class="number"><h1>2</h1></div>
+        <div class="description"><h1>&nbsp;Jaki alkohol spożywałeś?</h1></div>
+        <div id="rest2">
+            <br><br>
+            <h3>Wypiłem: </h3><input name="ilewody" type="number" min="0" max="1500">
+            <select name="miary1">
+                <option value="ml">ml</option>
+                <option value="mk">małych kieliszów (25g)</option>
+                <option value="sk">średnich kieliszów (30g)</option>
+                <option value="dk">dużych kieliszów (50g)</option>
+                <option value="b02">butelek 0.2 l</option>
+                <option value="b05">butelek 0.5 l</option>
+                <option value="b07">butelek 0.7 l</option>
+            </select>
+            <h3>wódki:&nbsp;</h3><input name="moc1" type="number" min="0" max="100"><h3>% alk.</h3>
+            <br><br><br>
+            <h3>Wypiłem: </h3><input name="ilewina" type="number" min="0" max="1500">
+            <select name="miary2">
+                <option value="ml">ml</option>
+                <option value="mkl">małych kieliszów (100 ml)</option>
+                <option value="dkl">dużych kieliszów (150 ml)</option>
+                <option value="b075">butelek 0.75 l</option>
+            </select>
+            <h3>wina:&nbsp;&nbsp;&nbsp;</h3><input name="moc2" type="number" min="0" max="100"><h3>% alk.</h3>
+            <br><br><br>
+            <h3>Wypiłem: </h3><input name="ilepiwa" type="number" min="0" max="1500">
+            <select name="miary3">
+                <option value="ml">ml</option>
+                <option value="mk">małych kufli 0.3l</option>
+                <option value="dk">dużych kufli 0.5l</option>
+                <option value="b033">małych butelek 0.33l</option>
+                <option value="b05">butelek 0.5l</option>
+                <option value="b066">dużych butelek 0.66l</option>
+            </select>
+            <h3>piwa:&nbsp;&nbsp;&nbsp;</h3><input name="moc3" type="number" min="0" max="100"><h3>% alk.</h3>
+
+            <br><br><br>
+            <h3>Wypiłem: </h3><input name="iledrinkow" type="number" min="0" max="1500">
+            <select name="miary4">
+                <option value="ml">ml</option>
+                <option value="ds">"długich" szklanek 250ml</option>
+                <option value="ss">"średnich" szklanek 200ml</option>
+                <option value="ks">"krótkich" szklanek 150ml</option>
+            </select>
+            <h3>trunku:</h3><input name="moc4" type="number" min="0" max="100"><h3>% alk.</h3>
+        </div>
+    </div>
+    <div id="HowLong">
+        <div class="number"><h1>3</h1></div>
+        <div class="description"><h1>&nbsp;Jak długo piłeś?</h1></div>
+        <div id="rest3">
+            <br><br>
+            <h3>Picie rozpocząłem o godzinie:</h3>
+            <select name="startHour">
+                <option value="0">0:00</option>
+                <option value="1">1:00</option>
+                <option value="2">2:00</option>
+                <option value="3">3:00</option>
+                <option value="4">4:00</option>
+                <option value="5">5:00</option>
+                <option value="6">6:00</option>
+                <option value="7">7:00</option>
+                <option value="8">8:00</option>
+                <option value="9">9:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+                <option value="19">19:00</option>
+                <option value="20">20:00</option>
+                <option value="21">21:00</option>
+                <option value="22">22:00</option>
+                <option value="23">23:00</option>
+            </select>
+            <br><br><br>
+            <h3>Od rozpoczęcia do zakończenia picia minęło:</h3>
+            <select name="how_many_hours">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+            </select>
+            <h3>godzin</h3>
+
+        </div>
+    </div>
+    <div id="TheRest">
+
+        <button class="calculate" name="calc">OBLICZ!</button>
+        <button class="calculate" name="clear" style="background-color:blue;">Wyczyść formularz!</button>
+
+    </div>
+    <div id="result">
+        <h4>Wyniki:</h4>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="newscript.js"></script>
+</body>
+
+</html>

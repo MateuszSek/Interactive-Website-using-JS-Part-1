@@ -1,0 +1,155 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:auto;
+    width:90%;
+    border-style: solid;
+    border-width: 4px;  
+    font-size:110%;
+    border-radius: 3%;
+    padding-left: 2%;
+    margin-top: 0.5%;
+
+}
+
+#header{
+    height: 70px;
+    text-align: center;
+    color: black;
+    font-size:25px;
+
+}
+
+h1{
+    margin:0;
+    font-weight: normal;
+}
+
+.number{
+    float: left;
+    background-color: orange;
+    width:8%;
+    text-align: center;
+    color:white;
+    height: 50px;
+}
+
+#rest{
+    float:left;
+    width:92%;
+
+}
+.description{
+    background-color: #1800f9;
+    color:white;
+    height: 50px;
+    width:94%;
+}
+h3{
+    display: inline;
+    font-weight: normal;
+
+}
+
+h4{
+    display: inline;
+    font-weight: normal;
+}
+
+#AboutYou{
+    float: left;
+    height: 250px;
+
+    width: 50%;
+}
+
+#result{
+    font-size: 1.17em;
+    font-weight: normal;
+}
+
+input{
+    width: 15%;
+}
+
+.radioo{
+    width:5%;
+    margin-bottom: 2%;
+}
+
+#alcohol{
+    height: 250px;
+    float: left;
+    width: 50%;
+}
+
+#HowLong{
+    width:50%;
+    float: left;
+
+}
+
+#TheRest{
+    width:50%;
+    float: left;
+    height: 170px;
+}
+
+#result{
+
+    height: 650px;
+}
+
+#container1{
+    float: left;
+    width:50%;
+    line-height: 60%;
+}
+
+.radioInput{
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+#container2{
+    float: left;
+    width:50%;
+    line-height: 60%;
+}
+
+#container3{
+    clear: both;
+    height: 75px;
+    line-height: 60%;
+}
+
+#rest2{
+    margin-left: 8%;
+    line-height: 60%;
+}
+
+option{
+    width: 150px;
+}
+
+#rest3{
+    margin-left: 8%;
+    line-height: 60%;
+    height: 120px;
+}
+
+#rest3 option{
+    width:50px;
+}
+
+.calculate{
+    width: 30%;
+    height: 75%;
+    border-radius: 10%;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
