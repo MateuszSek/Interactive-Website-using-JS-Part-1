@@ -1,9 +1,10 @@
 var main = function(){
-    var age, height, gender = 'woman', weight, stomach='1/2', problem=0, How_much1, How_much2, How_much3, How_much4, power1, power2, power3, power4, alc_type1, alc_type2, alc_type3, alc_type4, A=0, K=0.7, P=0, stopHour, topP_time, days=0, sober_time=0, time_OK, time_alcOK; //creating global variables
+    
 $("#calc").click(calc_alcohol);
 $("#clear").click(clear_alc);  
 
     function calc_alcohol(){ // "function calculating everything. css class = .calculate"
+        var age, height, gender = 'woman', weight, stomach='1/2', problem=0, How_much1, How_much2, How_much3, How_much4, power1, power2, power3, power4, alc_type1, alc_type2, alc_type3, alc_type4, A=0, K=0.7, P=0, stopHour, topP_time, days=0, sober_time=0, time_OK, time_alcOK; //creating global variables
         get_data_About_You();
         get_data_Alcohol();
         get_data_How_long_was_party();
