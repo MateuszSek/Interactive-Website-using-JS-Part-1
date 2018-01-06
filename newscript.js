@@ -11,7 +11,7 @@ $("#clear").click(clear_alc);
         promile_calc();
         sober_period_calc();
         show_results();
-    };
+
     
         function get_data_About_You(){        //assigning data from input fields into variables - 'Cos o Tobie' section
             age = parseInt($("input[name='age']").val());
@@ -172,7 +172,7 @@ $("#clear").click(clear_alc);
             else if (P!=0) alert("Wprowadż dane o sobie!");
             else if (problem==0 ) alert("Wprowadż dane na temat wypitego alkoholu!");
         }
-
+    };
     function clear_alc() { //'Wyczysc formularz' button
         $("input[name='How_much_vodka']").val("");
         $("input[name='How_much_wine']").val("");
