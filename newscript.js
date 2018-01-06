@@ -187,7 +187,7 @@ $("#clear").click(clear_alc);
 
         $("#result").html("Wyniki:");
     };
-}
+};
 
 $(document).ready(main); 
 
