@@ -8,7 +8,7 @@ body{
     border-radius: 3%;
     padding-left: 2%;
     margin-top: 0.5%;
-
+    margin-bottom: 5%;
 }
 
 #header{
@@ -65,6 +65,7 @@ h4{
 #result{
     font-size: 1.17em;
     font-weight: normal;
+    height: 700px;
 }
 
 input{
