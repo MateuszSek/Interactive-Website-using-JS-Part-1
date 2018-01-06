@@ -65,7 +65,7 @@ h4{
 #result{
     font-size: 1.17em;
     font-weight: normal;
-    height: 700px;
+    height: 610px;
 }
 
 input{
@@ -93,11 +93,6 @@ input{
     width:50%;
     float: left;
     height: 170px;
-}
-
-#result{
-
-    height: 650px;
 }
 
 #container1{
